@@ -1,0 +1,60 @@
+body {
+    color: white;
+    font-size: 22px;
+}
+#main {
+    padding: 0;
+    margin: 0;
+}
+#keypad {
+    display: flex;
+    flex-direction: column;
+    background-color: blue;
+    padding: 10px;
+    height: 500px;
+}
+.buttons {
+    background-color: blue;
+    width: 10px;
+    height: 10px;
+    padding: 30px;
+    border: 1px solid black;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+.buttons:hover{
+    background-color: lightskyblue;
+}
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 30px;
+    width: 300px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: auto;
+}
+#screen {
+    width: 160px;
+    padding: 2px;
+    margin-left: 6%;
+}
+#box {
+    background-color: blue;
+    width: 400px;
+    height: 600px;
+    padding-top: 15px;
+    border: solid 1px black;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+#lcd {
+    font-size: 28px;
+    text-align: right;
+}
+

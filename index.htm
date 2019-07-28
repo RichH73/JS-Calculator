@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Simple Calculator</title>
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+</head>
+<body>
+    <div id="main">
+        <div id="box">
+                <div id="screen">
+                        <input type="text" id="lcd" width="158px" height="12px" onload="this.value=0">
+                    </div>
+        <div id="keypad">
+            <div id="row5" class="row">
+                <div id="c" class="buttons">C</div>
+                <div id="memory" class="buttons">M</div>
+                <div id="memoryClear" class="buttons">MC</div>
+                <div id="memoryReturn" class="buttons">MR</div>
+            </div>
+            <div id="row4" class="row">
+                <div id="7" class="buttons" value="7">7</div>
+                <div id="8" class="buttons">8</div>
+                <div id="9" class="buttons">9</div>
+                <div id="x" class="buttons">X</div>
+            </div>
+            <div id="row3" class="row">
+                <div id="4" class="buttons">4</div>
+                <div id="5" class="buttons">5</div>
+                <div id="6" class="buttons">6</div>
+                <div id="-" class="buttons">-</div>
+            </div>
+            <div id="row2" class="row">
+                <div id="1" class="buttons">1</div>
+                <div id="2" class="buttons">2</div>
+                <div id="3" class="buttons">3</div>
+                <div id="+" class="buttons">+</div>
+            </div>
+            <div id="row1" class="row">
+                    <div id="." class="buttons">.</div>
+                <div id="0" class="buttons">0</div>
+                <div id="devide" class="buttons">&#247;</div>
+                <div id="=" class="buttons">=</div>
+            </div>
+        </div>
+        </div>
+    </div>
+    <script src="scripts/main.js"></script>    
+</body>
+</html>
